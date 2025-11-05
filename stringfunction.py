@@ -1,5 +1,5 @@
-'''st="welcome to the world of string"
-st=st.upper()
+st="welcome to the world of string"
+'''st=st.upper()
 print(st)
 st=st.lower()
 print(st)
@@ -9,7 +9,6 @@ st=st.title()
 print(st)
 st=st.swapcase()
 print(st)
-
 '''
 """name="Bhawana"
 age=19
@@ -94,8 +93,8 @@ print(newstr)'''
 res=st.split(",")
 print(res)
 for i in res:
-    print(i.lstrip("Mr"))
-    #print(i.rstrip("."))'''
+    print(i.lstrip("Mr"))'''
+    #print(i.rstrip("."))
 '''st="     malayalam"
 #print(st.lstrip("m"))
 #print(st.rstrip("m"))
@@ -124,9 +123,20 @@ print(a)'''
 '''a=list(map(float,input("Enter 3 numbers sep by space ").split()))
 print(a)'''
 #print("hello".upper().count("L"))
-'''st="abracadabara"
-print(st[0]+st[1:].replace(st[0],"$")) '''
+st="abracadabara"
+print(st[0]+st[1:].replace(st[0],"$")) 
 #delete hello from the list
-st=["Racecar","123@gmail.com","hello","Noon"]
+'''st=["Racecar","123@gmail.com","hello","Noon"]
 st.remove("hello")
-print(st)
+print(st)'''
+'''st=input("Enter a string :")
+if st==st[::-1]:
+    print("Palindrome ")
+else:
+    print("Not Palindrome")'''
+'''st=input("Enter a string:")
+
+if st=="a" or st=="e" or st=="i" or st=="o" or st=="u" or st=="A" or st=="E" or st=="I" or st=="O" or st=="U":
+    print("Vowels")
+else:
+    print("Consonant")'''

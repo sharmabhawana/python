@@ -20,5 +20,5 @@ for i in st[1::]:
         s+='$'
     else:
         s+=i
-print(s)
-'''
+print(s)'''
+
