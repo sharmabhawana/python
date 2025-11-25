@@ -1,0 +1,3 @@
+"""The tell() methods tells you the current position within the file;in other words the next read or write will occur at that many bytes from the beginning of the file.   
+The seek(offset[,from]) method changes the current file position. The offset argument indicates the number of bytes to be moved. The from argument specifices the reference position where the bytes are to moved.
+If from is set to 0, the reference position is the beginning of the file as the reference position and 1 means  the current  position  as the reference position; and if it is 2, the end of the file would be taken as the reference position. The default value for from is 0."""

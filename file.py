@@ -1,24 +1,15 @@
-Python 3.13.7 (tags/v3.13.7:bcee1c3, Aug 14 2025, 14:15:11) [MSC v.1944 64 bit (AMD64)] on win32
-Enter "help" below or click "Help" above for more information.
->>> num1=123.456
->>> num1
-123.456
->>> int(num1)
-123
->>> num`
-SyntaxError: invalid syntax
->>> num1
-123.456
->>> num1=int("1234")
->>> num1
-1234
->>> num1=int("123.34")
-Traceback (most recent call last):
-  File "<pyshell#7>", line 1, in <module>
-    num1=int("123.34")
-ValueError: invalid literal for int() with base 10: '123.34'
->>> num1=int("A")
-Traceback (most recent call last):
-  File "<pyshell#8>", line 1, in <module>
-    num1=int("A")
-ValueError: invalid literal for int() with base 10: 'A'
+"""Stream-A stream is a simply a sequence of bytes that flows into or out of our program
+It's an abstract representation of an input or output device
+Type of Stream
+!.Binary or Byte Streams
+2.Character Stream
+Working with file:-
+Files are storage compartments on your computer that are managed by operating system
+Python built-in open() function creates a Python file object,which serves as a link to a file residing on your machines.
+Mode:-
+r->Open for reading only.Start at beginning of file.
+r+->Open for reading and writing.Starting at begining of file.
+w->Open for writing only.Remove all previous content,if file doesn't exist,create it.
+w+->open for writing mode.Truncates the file(effectively overwritting it).If the file doesn't exist,it will attempt tom create the file,it deletes all the informatin in the file when the file is opened.
+a->open writing,but start at the end of current content.
+a+->Open for reading and writing,starts at end and creates file if neccessary."""
